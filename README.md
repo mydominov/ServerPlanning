@@ -1,11 +1,3 @@
-  ____                                ____  _                   _             
- / ___|  ___ _ ____   _____ _ __     |  _ \| | __ _ _ __  _ __ (_)_ __   __ _ 
- \___ \ / _ \ '__\ \ / / _ \ '__|____| |_) | |/ _` | '_ \| '_ \| | '_ \ / _` |
-  ___) |  __/ |   \ V /  __/ | |_____|  __/| | (_| | | | | | | | | | | | (_| |
- |____/ \___|_|    \_/ \___|_|       |_|   |_|\__,_|_| |_|_| |_|_|_| |_|\__, |
-                                                                        |___/ 
-------------------------------------------------------------------------------
-
 The program that calculates the server hardware for a data center (to host virtual machines).
 
 All servers are from the same type. This type defines the hardware resources each server provides: CPU, RAM, HDD.
