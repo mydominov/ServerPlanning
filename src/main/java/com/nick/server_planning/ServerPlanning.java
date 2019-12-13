@@ -19,11 +19,11 @@ public class ServerPlanning {
      * @return number of servers
      */
     public static int calculate(final CountingResource serverType, final List<CountingResource> virtualMachines) {
-        if (serverType == null
-                || virtualMachines == null
-                || serverType.getCpu() < 0
-                || serverType.getRam() < 0
-                || serverType.getHdd() < 0) {
+        if (serverType == null ||
+                virtualMachines == null ||
+                serverType.getCpu() < 0 ||
+                serverType.getRam() < 0 ||
+                serverType.getHdd() < 0) {
             return -1;
         }
 
